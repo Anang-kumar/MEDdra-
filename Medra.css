@@ -1,0 +1,119 @@
+.headerChip {
+    display: inline-block;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 20px;
+   
+  }
+
+
+.medcard
+  {
+
+	position:relative;
+	margin-top: 9rem;
+	left:50%;
+	transform:translate(-50%,-50%);
+     width:550px; 
+	 height:280px; 
+	 padding:40px 40px; 
+	box-sizing:border-box;
+    background:  rgba(193,224,218,0.4);
+    border: 2px solid black;
+   border-style: dashed; 
+	
+}
+
+.medcard1
+  {
+
+	position:relative;
+	margin-top: 22rem;
+	margin-left: 6rem;
+	transform:translate(-50%,-50%);
+     width:200px; 
+	 height:39.5rem; 
+	 padding:20px 20px; 
+	box-sizing:border-box;
+  /* background:rgba(227,227,222,0.5); */
+  background:  rgba(213,213,224,0.6);
+	
+}
+
+.contentChip {
+    display: inline-block;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 10px;
+   
+  }
+
+  .contentInput {
+
+    padding: 2px 2px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(213,213,224,0.6);
+    /* color: white; */
+  }
+  
+  .contentLabel {
+
+    padding: 2px 2px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:  rgba(213,213,224,0.6);
+    
+  }
+
+  .button3:hover {
+    background-color:  #302f3d;
+    color: white;
+  }
+
+  .button3{
+    background-color:   #5097eb;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+  }
+  
+.headerInput{
+  padding: 2px 2px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    /* border: none; */
+    border: 0.5px solid blue;
+    /* background-color: rgba(213,213,224,0.6); */
+    /* color: white; */
+    margin-left: -15px;
+  width: 9.5rem;
+}
+
+.center-scroll {
+  /* flex: 1; */
+  background:  white;
+  overflow-y:  auto;
+  overflow-x: auto;
+  /* overflow: scroll; */
+  width: 165px; 
+   height: 15rem;
+}
+  
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+  
+li:hover {
+  cursor: pointer;
+  /* background-color:red; */
+}
